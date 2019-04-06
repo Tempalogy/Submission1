@@ -29,7 +29,7 @@
     $host = "tempalogyserver.database.windows.net";
     $user = "Sae497";
     $pass = "No123456sae";
-    $db = "tempalogyserver.tempalogydatabase";
+    $db = "tempalogydatabase";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
